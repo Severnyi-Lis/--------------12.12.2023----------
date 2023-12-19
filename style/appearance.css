@@ -1,0 +1,15 @@
+header{
+    background-color: aqua;
+}
+article{
+    background-color: rgb(44, 44, 216)
+}
+section{
+    color: aliceblue;
+}
+footer{
+    background-color: aqua;
+}
+legend{
+    color: aliceblue;
+}

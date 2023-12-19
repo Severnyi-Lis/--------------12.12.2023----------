@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset = 'UTF-8'>
+        <title>Викторина</title>
+        <link href="style/appearance.css"
+        rel="stylesheet">
+        <link href="style/layout.css"
+        rel="stylesheet">
+    </head>
+    <body>
+        <form action="file:///C:/Users/admin/Documents/%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D1%86/molodec.html" method='post'>
+            <header><nav><p>Занимательные</p>
+                <p>Новогодние вопросы 2024</p>
+                <img src="photos/ель2.png"
+                alt="ель"
+                class="tree">
+                <img src="photos/ель2.png"
+                alt="ель"
+                class="tree_2">
+                <img src="photos/kartinki-zimnyaya-skazka-21.jpg"
+                alt="зима"></nav>
+            </header>
+            <article>
+                <fieldset>
+                    <legend>Легкие вопросы</legend>
+                <section>Вопрос 1
+                    <p>С какого раза у Шурика получился эксперимент с машиной времени? (К/ф Иван Васильевич меняет профессию)</p>
+                    <select class="kru_2">
+                        <option>С первого</option>
+                        <option>Со второго</option>
+                        <option>С третьего</option>
+                        <option>С четвертого</option>
+                    </select>
+                </section>
+                    <section>Вопрос 2
+                        <p>В каком из следующих фильмов не встречают Новый год?</p>
+                        <table>
+                            <tr>
+                                <td>
+                        <label for='film'>Бриллиантовая рука</label>
+                         <input type="checkbox" id="film">
+                                </td>
+                                <td>                  
+                        <label for='film_2'>Чародеи</label>
+                         <input type="checkbox" id="film_2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                         <label for='film_3'>Карнавальная ночь</label>
+                          <input type="checkbox" id="film_3">
+                                </td>
+                                <td> 
+                         <label for='film_4'>Джентельмены удачи</label>
+                           <input type="checkbox" id="film_4">
+                               </td>
+                            </tr>
+                        </table>
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Вопросы средней сложности</legend>
+                <section>Вопрос 1
+                    <label for="salat">Какой салат не красовался на столе советских хозяек?</label>
+                    <input list='learn' id="salat" name="salat" placeholder="Ваш вариант">
+                     <datalist id='learn'>
+                        <option>Оливье</option>
+                        <option>Сельдь под шубой</option>
+                        <option>Мимоза</option>
+                        <option>Цезарь</option>
+                     </datalist>
+                </section>
+                <section>Вопрос 2
+                    <p>В каком году после распада СССР Рождество сделали официальным выходным днем?</p>
+                    <input type="text" class="kru_2">
+                </section>
+                <section>
+                    <p>Какой город знаменит самой высокой елкой, закрепленной на плавучей платформе?</p>
+                    <label for="gorod">Санкт-Петербург</label><input type="radio" id="gorod" name="year">
+                    <label for="gorod_2">Рио-де-Женейро</label>
+                    <input type="radio" id="gorod_2" name="year">
+                </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Сложные вопросы</legend>
+                <section>Вопрос 1
+                    <p>Во времена какого правителя было завезено первое Шампанское?</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for='tick'>Ивана Грозного</label>
+                                <input type="checkbox" id="tick">
+                            <td>
+                                <label for='tick_2'>Петра I</label>
+                                <input type="checkbox" id="tick_2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="tick_3">Екатерины I</label>
+                                <input type="checkbox" id="tick_3">
+                            </td>
+                            <td>
+                                <label for="tick_4">Екатерины II</label>
+                                <input type="checkbox" id="tick_4">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+                <section>Вопрос 2
+                    <p>Новый год в Советской России стал отмечаться с…?</p>
+                    <select id="kru">
+                        <option>1935</option>
+                        <option>1937</option>
+                        <option>1945</option>
+                        <option>1951</option>
+                    </select>
+                </section>
+                <section>Вопрос 3
+                    <p>В каком году на Елке впервые появилась внучка Дедушки Мороза – Снегурочка?</p>
+                    <input type="email" class="kru_2">
+                </section>
+                <section>Вопрос 4
+                    <p>Было интересно и весело?</p>
+                    <label for="stick_r">да</label><input type="radio" id="stick_r" name="subject">
+                    <label for="hurma">где мой денежный приз?</label>
+                    <input type="radio" id="hurma" name="subject">
+                </section>
+                </fieldset>
+            </article>
+            <footer>
+                    <button id="ton">Проверить ответы</button>
+            </footer>
+        </form>
+    </body>
+</html>
